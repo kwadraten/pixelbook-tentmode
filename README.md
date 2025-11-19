@@ -1,6 +1,6 @@
 # Pixelbook 2017 Tent Mode Daemon
 
-<p style="text-align: center">English | [中文](./README_zh.md)</p>
+English | [中文](./README_zh.md)
 
 In the original Chrome OS system on the Pixelbook 2017, the display content automatically rotates 180 degrees when the laptop is folded and inverted, resting on the edges of the screen and keyboard, forming a "tent." However, after flashing Linux, this functionality is not implemented. The program in this repository realizes this feature. It automatically detects data from the accelerometer located on the display and rotates the screen content accordingly.
 
@@ -55,4 +55,4 @@ The Pixelbook 2017 has a three-axis accelerometer on both the base and the displ
 
 Because it uses `xrandr`, this program is only applicable to X11 and **not** Wayland.
 
-This program is implemented specifically for the Pixelbook 2017. For other device models, the specific name, label, and coordinate values of the IIO devices may differ and require separate calculation. If your distribution includes [iio-sensor-proxy](https://gitlab.freedesktop.org/hadess/iio-sensor-proxy/), you can directly use the output of `monitor-sensor` to determine the laptop's pose. By modifying the `AccelMonitor.fs` program in this repository based on that, you can achieve adaptation for your device.
+This program is implemented specifically for the Pixelbook 2017. For other device models, the specific name, label, and coordinate values of the IIO devices may differ and require separate calculation. If your Linux distro includes [iio-sensor-proxy](https://gitlab.freedesktop.org/hadess/iio-sensor-proxy/), you can directly use the output of `monitor-sensor` to determine the laptop's pose. By modifying the `AccelMonitor.fs` program in this repository based on that, you can achieve adaptation for your device.

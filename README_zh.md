@@ -1,6 +1,6 @@
 # Pixelbook2017 帐篷模式（Tentmode）守护程序
 
-<p style="text-align: center">[English](./README.md) | 中文</p>
+[English](./README.md) | 中文
 
 在Pixelbook 2017原装的Chrome OS系统当中，当将笔记本折叠起来，然后倒转过来使用屏幕和键盘的边缘进行支撑时，也就是像“帐篷”一样支撑起来时，显示内容会自动发生180度翻转。然而，刷入Linux之后，Linux并未实现这个功能。本仓库当中的程序则实现了这个功能。它会自动检测位于显示器上的加速度传感器的数据，据此旋转显示内容。
 
