@@ -49,7 +49,7 @@ cp -v ./accel-monitor.desktop ${HOME}/.config/autostart/
 
 **Note**: If you use systemd, you will need to manually execute `systemctl --user start accel-monitor.service` every time you start up. Do not use systemd to manage the program's autostart, as it will fail even with a delay set.
 
-## Principle of the Program
+## How does it work
 
 The Pixelbook 2017 has a three-axis accelerometer on both the base and the display. The outputted x, y, and z coordinates can be used to calculate the device's roll, pitch, orientation, and other poses. In Linux systems, these devices are identified as IIO (Industrial I/O) devices and can be viewed under `/sys/bus/iio/devices`. This program uses the y-axis data from the display's sensor to determine if the screen is upright or inverted, and subsequently uses `xrandr` to rotate the display content.
 
