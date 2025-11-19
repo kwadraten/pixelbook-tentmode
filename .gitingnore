@@ -1,6 +1,9 @@
 ## Core .NET Build Folders ##
-[Bb]in/
-[Oo]bj/
+obj/
+Obj/
+bin/
+Bin/
+publish/
 
 ## NuGet Packages ##
 *.nupkg
