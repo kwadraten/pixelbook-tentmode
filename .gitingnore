@@ -1,0 +1,77 @@
+## Core .NET Build Folders ##
+[Bb]in/
+[Oo]bj/
+
+## NuGet Packages ##
+*.nupkg
+*.snupkg
+# The packages folder can generally be ignored for PackageReference projects
+**/packages/*
+# !**/packages/build/  # Uncomment if you need to commit build props
+
+## Visual Studio ##
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.cache
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## Visual Studio Code ##
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## F# Specific (Ionide) ##
+.ionide/
+
+## JetBrains Rider ##
+.idea/
+*.sln.iml
+
+## F# Interactive / Scripts ##
+# F# Interactive history
+.fsi_history
+
+## Dotnet tools ##
+.config/dotnet-tools.json
+
+## Test Results ##
+TestResults/
+*.trg
+*.trx
+
+## OS Generated Files ##
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db

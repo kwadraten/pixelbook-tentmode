@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/{your_username}/.local/bin/accel_monitor
+Hidden=false
+NoDisplay=true
+Terminal=false
+X-GNOME-Autostart-enabled=true
+Name=Accelerometer Screen Rotation
+Comment=Check the oriention of display and Rotate it.

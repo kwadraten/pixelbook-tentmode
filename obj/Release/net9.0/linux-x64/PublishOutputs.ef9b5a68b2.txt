@@ -1,0 +1,1 @@
+/home/squaresum/Documents/code/device-accel/publish/accel_monitor

@@ -1,0 +1,24 @@
+[Unit]
+Description=Accelerometer Screen Rotation Service
+After=graphical-session.target
+
+[Service]
+# 注意：
+# 用户服务（位于 ~/.config/systemd/user/）默认就以当前登录用户运行
+# 因此无需且不应在 [Service] 部分包含 User= 或 Group= 指令
+# 服务的类型：simple 或 forking 均可
+Type=simple
+
+# 可执行文件的路径
+ExecStart=/home/{your_username}/.local/bin/accel_monitor
+
+# 重启策略：如果服务退出，立即重启
+Restart=always
+RestartSec=5s
+
+# 标准输出和标准错误日志重定向
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=graphical-session.target
