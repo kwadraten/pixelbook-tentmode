@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("accel_monitor")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0056d2f9bd611cd5c867ad63448d1ad2192d768a")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("accel_monitor")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("accel_monitor")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
